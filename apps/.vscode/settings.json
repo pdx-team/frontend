@@ -1,0 +1,10 @@
+{
+  "eslint.nodePath": "../.yarn/sdks",
+  "stylelint.validate": ["css", "typescriptreact"],
+  "prettier.prettierPath": "../.yarn/sdks/prettier/index.cjs",
+  "prettier.ignorePath": "../.prettierignore",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true
+}

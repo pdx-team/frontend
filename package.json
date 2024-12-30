@@ -1,4 +1,12 @@
 {
-  "name": "frontend",
-  "packageManager": "yarn@4.6.0"
+  "name": "pdx-team",
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
 }
